@@ -10,6 +10,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-mapbox-gl/maps": "^8.2.0-beta1",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "react-native-typography": "^1.4.1",
