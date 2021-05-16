@@ -5,6 +5,8 @@ platform :ios, '10.0'
 
 target 'GeoMusicApp' do
   config = use_native_modules!
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
 
   use_react_native!(
     :path => config[:reactNativePath],
